@@ -32,4 +32,3 @@ RUN /etc/init.d/sshd stop
 
 # entrypoint
 ENTRYPOINT ["/usr/sbin/sshd", "-D"]
-EXPOSE 49222:22
